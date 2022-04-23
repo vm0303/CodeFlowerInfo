@@ -1,0 +1,76 @@
+html, body
+{
+    height: 100%;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.gradient {
+    background: rgb(0, 97, 242);
+    background: linear-gradient(
+            135deg,
+            rgba(0, 97, 242, 1) 0%,
+            rgba(105, 0, 199, 1) 100%
+    );
+}
+
+.page-header
+{
+
+    font-size: 1.25rem;
+    color: whitesmoke;
+}
+
+.feature {
+    color: #fff;
+}
+
+.feature ul {
+    padding-left: 2rem;
+    list-style-type: none;
+}
+
+.feature ul li {
+    padding-left: 2rem;
+    background-repeat: no-repeat;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+.iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.gallery {
+    background-color: whitesmoke;
+}
+
+.team {
+    color: #212529;
+    background: linear-gradient(
+            135deg,
+            rgba(0, 97, 242, 1) 0%,
+            rgba(105, 0, 199, 1) 100%
+    );
+
+}
+.foot
+{
+    background: #212529;
+}
+
+
+.carousel-caption
+{
+    position: relative; left: 0; top: 0;
+}
+
