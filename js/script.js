@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(){
     window.addEventListener('scroll', function() {
+        let navbar_height;
         if (window.scrollY > 40) {
             document.getElementById('navbar_top').classList.add('fixed-top');
             // add padding top to show content behind navbar
